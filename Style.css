@@ -1,0 +1,162 @@
+body {
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZAqjuNo-FVtxtz4ZkDeRl2FCxW7hilvZtdA&usqp=CAU);
+    width:100%;
+    height:100vh;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family:'Roboto', serif;
+    color:black;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat ;
+}
+.overlay{
+    width:100%;
+    height:100vh;
+    background:rgba(0,0,0,.6);
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family:'Roboto', serif;
+    position:fixed;
+    left:0;
+    top:0;
+    visibility:hidden ;
+}
+form{
+    width:250px;
+    height:400px;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:80px 50px 0px 50px;
+    border-radius:5px;
+    transition:5s 200px ease-in;
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:10px;
+}
+.btn{
+    margin:10px;
+}
+input{
+    margin:15px;
+    width:229px;
+    height:50px;
+    border-bottom:2px solid black;
+    outline:none;
+    background:none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+.fa{
+    color:#fff;
+    margin-top:20px;
+    font-size:30px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.user{
+    width:100px;
+    height:100px;
+    background:black;
+    margin-top:20px;
+    border-radius:50%;
+}
+.btn-success:focus{
+    outline:none;
+}
+.btn-success{
+    margin:20px 50px 250px 60px;
+}
+.success{
+    width:100%;
+    height:100vh;
+    background:white;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    font-family:'Roboto', serif;
+    position:fixed;
+    left:0;
+    top:0;
+    visibility:hidden ;
+    text-align:center;
+}
+h1{
+    font-family:'Nunito', serif;
+    color:hotpink;
+    text-shadow:0 0 2px black;
+    font-style:italic ;
+    font-size:30px;
+    
+}
+
+
+img{
+    border-radius:50%;
+    margin:10px 10px 10px 30px;
+    box-shadow:0 0 5px black;
+}
+
+
+.container{
+    margin:0px;
+    width:100%;
+    height:auto;
+   position:relative  ;
+   top:0;
+   left:0;
+    
+    
+}
+
+
+p{
+    text-align:center;
+    color:black;
+}
+.icon{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+}
+.fa-facebook{
+     color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:15px;
+    float:left;
+    margin-right:15px;
+    border-radius:50%;
+    box-shadow:0 0 5px black;
+    background:blue;
+}
+.fa-github{
+     color:white;
+    padding:15px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-left:15px;
+    float:left ;
+    box-shadow:0 0 5px black;
+    border-radius:50%;
+    background:green;
+    overflow:hidden ;
+}
+
